@@ -1,0 +1,29 @@
+body{
+	height: 250px;
+}
+#elem4_1, #elem4_2, #elem4_3{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+}
+#elem4_1{
+	border: 1px solid #FF8888;
+	background-color: #FF8888;
+	left: 130px; /*различие в 30px*/
+	top: 320px;
+	z-index: 0;
+}
+#elem4_2{
+	border: 1px solid #7E89EB;
+	background-color: #7E89EB;
+	left: 160px;
+	top: 350px;
+	z-index: 1;
+}
+#elem4_3{
+	border: 1px solid #4DEE99;
+	background-color: #4DEE99;
+	left: 190px;
+	top: 380px;
+	z-index: 3;
+}

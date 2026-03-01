@@ -1,0 +1,23 @@
+body{
+	height: 250px;
+}
+#elem3_1, #elem3_2, #elem3_3{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+}
+#elem3_1{
+	border: 1px solid #FF8888;
+	left: 30px;
+	top: 320px; /*различие в 30px*/
+}
+#elem3_2{
+	border: 1px solid #7E89EB;
+	left: 60px;
+	top: 350px;
+}
+#elem3_3{
+	border: 1px solid #4DEE99;
+	left: 90px;
+	top: 380px;
+}
